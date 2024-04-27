@@ -7,7 +7,7 @@ elements = {
     listOfCourses: () => cy.contains('List of Courses'),
     theCourse: () => cy.get(':nth-child(2) > .MuiCardMedia-root'),
     theEditBtn: () => cy.get('.css-klop1v'),
-    addressField: () => cy.get('[data-testid="CourseURL*(mustbeyoutube)"]'),
+    addressField: () => cy.get('[data-testid="Address*"]'),
     updateCourseBtn: () => cy.get('.css-tzsjye > .MuiButton-root'),
 
 }
